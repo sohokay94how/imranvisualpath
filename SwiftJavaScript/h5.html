@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>H5页面</title>
+</head>
+<body>
+
+<h1 align="center">标题1(APP调用JS，使标题变成红色)</h1>
+<script>
+    // JS调用APP(callbackHandler：要两边一致)
+    function callNativeApp () {
+        try {
+            webkit.messageHandlers.callbackHandler.postMessage("I Love you");
+        } catch(err) {
+            console.log('The native context does not exist yet');
+        }
+     }
+
+  // APP调用JS
+  function redHeader() {
+        document.querySelector('h1').style.color = "red";
+  }
+</script>
+
+<button style="text-align:center;height:50px;width:200px;font-size:30px;" onclick="callNativeApp()">调用APP</button>
+</body>
+</html>

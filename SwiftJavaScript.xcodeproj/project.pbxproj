@@ -12,6 +12,10 @@
 		45DA4F981C5F253200D5A85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4F961C5F253200D5A85F /* Main.storyboard */; };
 		45DA4F9A1C5F253200D5A85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4F991C5F253200D5A85F /* Assets.xcassets */; };
 		45DA4F9D1C5F253200D5A85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4F9B1C5F253200D5A85F /* LaunchScreen.storyboard */; };
+		45DA4FA51C5F26DC00D5A85F /* H5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA4FA41C5F26DC00D5A85F /* H5ViewController.swift */; };
+		45DA4FA71C5F281E00D5A85F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DA4FA61C5F281E00D5A85F /* WebKit.framework */; };
+		45DA4FA91C5F28DF00D5A85F /* h5.html in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4FA81C5F28DF00D5A85F /* h5.html */; };
+		45DA4FAB1C5F2C2100D5A85F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		45DA4F991C5F253200D5A85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45DA4F9C1C5F253200D5A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45DA4F9E1C5F253200D5A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DA4FA41C5F26DC00D5A85F /* H5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H5ViewController.swift; sourceTree = "<group>"; };
+		45DA4FA61C5F281E00D5A85F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		45DA4FA81C5F28DF00D5A85F /* h5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = h5.html; sourceTree = "<group>"; };
+		45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DA4FA71C5F281E00D5A85F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 		45DA4F861C5F253100D5A85F = {
 			isa = PBXGroup;
 			children = (
+				45DA4FA61C5F281E00D5A85F /* WebKit.framework */,
 				45DA4F911C5F253200D5A85F /* SwiftJavaScript */,
 				45DA4F901C5F253100D5A85F /* Products */,
 			);
@@ -56,6 +66,9 @@
 			children = (
 				45DA4F921C5F253200D5A85F /* AppDelegate.swift */,
 				45DA4F941C5F253200D5A85F /* ViewController.swift */,
+				45DA4FA41C5F26DC00D5A85F /* H5ViewController.swift */,
+				45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */,
+				45DA4FA81C5F28DF00D5A85F /* h5.html */,
 				45DA4F961C5F253200D5A85F /* Main.storyboard */,
 				45DA4F991C5F253200D5A85F /* Assets.xcassets */,
 				45DA4F9B1C5F253200D5A85F /* LaunchScreen.storyboard */,
@@ -125,6 +138,7 @@
 				45DA4F9D1C5F253200D5A85F /* LaunchScreen.storyboard in Resources */,
 				45DA4F9A1C5F253200D5A85F /* Assets.xcassets in Resources */,
 				45DA4F981C5F253200D5A85F /* Main.storyboard in Resources */,
+				45DA4FA91C5F28DF00D5A85F /* h5.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DA4F951C5F253200D5A85F /* ViewController.swift in Sources */,
+				45DA4FA51C5F26DC00D5A85F /* H5ViewController.swift in Sources */,
+				45DA4FAB1C5F2C2100D5A85F /* ThirdViewController.swift in Sources */,
 				45DA4F931C5F253200D5A85F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftJavaScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeisoft.SwiftJavaScript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftJavaScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeisoft.SwiftJavaScript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
