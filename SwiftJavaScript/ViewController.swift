@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didClickH5(){
-        let vc = H5ViewController.init(url: nil, callbackHandlerName: ["callbackHandler"]) { (handlerName, sendData, vc) -> Void in
+        let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("h5", ofType:"html")!)
+        
+        let vc = H5ViewController.init(url: url, callbackHandlerName: ["callbackHandler"]) { (handlerName, sendData, vc) -> Void in
             if "callbackHandler" == handlerName {
                 let thirdVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("ThirdViewController") as! ThirdViewController
                 print(sendData)

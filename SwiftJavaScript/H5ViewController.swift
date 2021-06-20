@@ -72,12 +72,7 @@ class H5ViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,WKScr
             }
         }
         
-        //调用本地的html5
-        let request = NSURLRequest(URL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("h5", ofType:"html")!), cachePolicy: .ReloadIgnoringLocalCacheData, timeoutInterval: 20)
-        
-        //调用服务器html5（实际中，注释掉上面即可）
-        //let request = NSURLRequest(URL: url!, cachePolicy: NSURLRequestCachePolicy.ReloadIgnoringLocalCacheData, timeoutInterval: 20)
-        
+        let request = NSURLRequest(URL: self.url!, cachePolicy: .ReloadIgnoringLocalCacheData, timeoutInterval: 20)
         self.webView.loadRequest(request)
         
     }

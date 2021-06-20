@@ -16,6 +16,7 @@
 		45DA4FA71C5F281E00D5A85F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DA4FA61C5F281E00D5A85F /* WebKit.framework */; };
 		45DA4FA91C5F28DF00D5A85F /* h5.html in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4FA81C5F28DF00D5A85F /* h5.html */; };
 		45DA4FAB1C5F2C2100D5A85F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */; };
+		45DA505D1C60420C00D5A85F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45DA505C1C60420C00D5A85F /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		45DA4FA61C5F281E00D5A85F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		45DA4FA81C5F28DF00D5A85F /* h5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = h5.html; sourceTree = "<group>"; };
 		45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		45DA505C1C60420C00D5A85F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				45DA4FA41C5F26DC00D5A85F /* H5ViewController.swift */,
 				45DA4FAA1C5F2C2100D5A85F /* ThirdViewController.swift */,
 				45DA4FA81C5F28DF00D5A85F /* h5.html */,
+				45DA505C1C60420C00D5A85F /* demo.gif */,
 				45DA4F961C5F253200D5A85F /* Main.storyboard */,
 				45DA4F991C5F253200D5A85F /* Assets.xcassets */,
 				45DA4F9B1C5F253200D5A85F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				45DA4F9D1C5F253200D5A85F /* LaunchScreen.storyboard in Resources */,
 				45DA4F9A1C5F253200D5A85F /* Assets.xcassets in Resources */,
+				45DA505D1C60420C00D5A85F /* demo.gif in Resources */,
 				45DA4F981C5F253200D5A85F /* Main.storyboard in Resources */,
 				45DA4FA91C5F28DF00D5A85F /* h5.html in Resources */,
 			);
@@ -304,6 +308,7 @@
 				45DA4FA31C5F253200D5A85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
