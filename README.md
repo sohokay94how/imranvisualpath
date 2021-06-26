@@ -1,3 +1,5 @@
+SwiftJS是用swift写的，用于演示如何和JavaScript进行交互的Demo.
+
 ## Features
 
 - [x] JavaScript call Native App
