@@ -1,6 +1,6 @@
 SwiftJS是用swift写的，用于演示如何和JavaScript进行交互的Demo.
 
-![演示效果](http://git.oschina.net/uploads/images/2016/0202/100023_12f7b8a1_302364.gif "在这里输入图片标题")
+![效果](http://git.oschina.net/uploads/images/2016/0202/100206_b228d0f2_302364.gif "在这里输入图片标题")
 
 ## Features
 
